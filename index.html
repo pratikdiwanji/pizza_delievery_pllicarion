@@ -1,0 +1,41 @@
+<h1>Pizza House App</h1>
+
+  <div id="orderForm">
+      <label>How many pizzas do you want?
+          <input type="number" id="numPizzas" />
+      </label>
+      <br />
+      <br />
+      <label>What kind of pizzas?
+          <select id="typePizza">
+          <option value="-----">-----</option>
+              <option value="cheese">Cheese</option>
+              <option value="pepperoni">Pepperoni</option>
+              <option value="veggie">Veggie</option>
+              <option value="supreme">Supreme</option>
+          </select>
+      </label>
+      <br/>
+      <br/>
+      <label>Where do you live?
+          <select id="deliveryCity">
+              <option value="------">------</option>
+              <option value="Gandhi Nagar">Gandhi Nagar</option>
+              <option value="Trikuta Nagar">Trikuta Nagar</option>
+              <option value="Channi Himmat">Channi Himmat</option>
+              <option value="Sainik Colony">Sainik Colony</option>
+          </select>
+      </label>
+      <br/>
+      <br/>
+      <label>Is it your birthday?
+        <select id="birthday">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </label>
+      <br/>
+      <br/>
+      <button type="button" id="placeOrder">Place Order</button>
+  </div>
+  <div id="displayTotal"></div>
